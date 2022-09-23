@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+   font-family: "Lato";
+}
+
+
+.header {
+   padding-top: 80px;
+   margin-bottom: 60px;
+}
+
+[class*="__container"] {
+   max-width: 840px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+h1 {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 1.3;
+   margin-bottom: 40px;
+}
+
+.header img {
+   max-width: 810px;
+}
+
+.text1 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   margin-bottom: 24px;
+}
+
+.section {
+   font-size: 16px;
+   line-height: 1.6;
+   margin-bottom: 48px;
+}
+
+.section-text1 {
+   margin-bottom: 16px;
+}
+
+.text2 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 1.5;
+   padding-left: 58px;
+   margin-bottom: 48px;
+}
+
+.list {
+   font-size: 16px;
+   line-height: 1.6;
+   margin-bottom: 24px;
+}
+
+.list-text {
+   margin-bottom: 24px;
+}
+
+.list ul {
+   padding-left: 32px;
+
+}
+
+.list ul li {
+   margin-bottom: 4px;
+}
+
+.list ul .list-last {
+   margin-bottom: 0;
+}
+
+.text3 {
+   font-size: 16px;
+   line-height: 1.6;
+   margin-bottom: 60px;
+}
+
+.section__cont {
+   max-width: 1120px;
+   margin: 0 auto;
+   padding: 0 15px;
+
+}
+
+.section__text1 {
+   max-width: 100%;
+   padding: 30px;
+   font-weight: 700;
+   border: 5px solid #42a848;
+   box-shadow: 10px 10px 15px #42a848;
+   border-radius: 30px;
+   background-color: aqua;
+   margin-bottom: 30px;
+}
+
+.section__text2 {
+   max-width: 100%;
+   padding: 20px;
+   border-radius: 30px;
+   border: 5px dotted rgb(158, 99, 51);
+   background-color: rgba(105, 12, 48, 0.521);
+   box-shadow: 10px 10px 15px rgba(105, 12, 48);
+   margin-bottom: 30px;
+}
+
+.section__blocks {
+   width: 100%;
+   padding: 20px;
+   border-radius: 30px;
+   border: 4px solid #8f2e88;
+   background: rgb(181, 189, 200);
+   background-image: linear-gradient(to bottom, rgba(181, 189, 200, 1) 0%, rgba(130, 140, 149, 1) 36%, rgba(40, 52, 59, 1) 100%);
+}
+
+.section__block1 {
+   width: 100%;
+   padding: 50px;
+   background: url("../img/mountain.jpg");
+   background-size: 100px 100px;
+   border: 2px solid rgb(38, 36, 158);
+   color: #ff1e00;
+   margin-bottom: 30px;
+}
+
+.section__block2 {
+   width: 100%;
+   padding: 50px;
+   border: 4px solid #83d8b2;
+   background: url("../img/bergpauseg_1_0.png") 0 0 / cover, no-repeat;
+   margin-bottom: 30px;
+}
+
+.section__block3 {
+   width: 100%;
+   padding: 50px;
+   border: 4px solid #d2d883;
+   background: url("../img/image-1-1.jpg") 0 0 / cover, no-repeat;
+   background-attachment: fixed;
+   margin-bottom: 30px;
+}
+
+.section__block4 {
+   width: 100%;
+   padding: 50px;
+   border: 4px solid #191f1c;
+   background: url("../img/h_ua_den_gor.jpg") bottom left / 300px no-repeat, url("../img/20140105152602.jpg") center / 300px no-repeat, url("../img/2.jpg") right top / 300px no-repeat, linear-gradient(135deg, rgba(210, 255, 82, 1) 0%, rgba(95, 163, 47, 1) 100%);
+   margin-bottom: 30px;
+}
+
+.section__block5 {
+   width: 100%;
+   padding: 50px;
+   color: rgb(255, 255, 255);
+   border: 4px solid #5b65ee;
+   background: url("../img/images.jpg") 20px center no-repeat scroll;
+   margin-bottom: 30px;
+}
+
+.section__block6 {
+   width: 100%;
+   padding: 50px;
+   color: rgb(44, 190, 39);
+   border: 4px solid #ee5bda;
+   background: url("../img/pip.jpg") 0 0 / cover no-repeat fixed;
+   margin-bottom: 30px;
+}
+
+.section__block7 {
+   width: 100%;
+   padding: 50px;
+   color: rgb(33, 57, 161);
+   border: 4px solid #ee9d5b;
+   background: linear-gradient(135deg, rgba(208, 228, 247, 1) 0%, rgba(115, 177, 231, 1) 24%, rgba(10, 119, 213, 1) 50%, rgba(83, 159, 225, 1) 79%, rgba(135, 188, 234, 1) 100%);
+   margin-bottom: 30px;
+}
+
+.section__block8 {
+   width: 100%;
+   padding: 50px;
+   border: 4px solid #191f1c;
+   color: #83d8b2;
+   background: url("../img/20140105152602.jpg") center / 300px no-repeat, url("../img/02.jpg") top left / 200px no-repeat, url("../img/w900h675.jpg") right bottom / 250px no-repeat, linear-gradient(to right, rgba(240, 183, 161, 1) 0%, rgba(117, 34, 1, 1) 100%, rgba(191, 110, 78, 1) 100%);
+   margin-bottom: 30px;
+}
+
+.footer {
+   margin-bottom: 50px;
+}
+
+.footer__link {
+   font-weight: 700;
+   color: rgb(255, 255, 255);
+   border: 5px solid rgb(218, 34, 34);
+   background-color: #191f1c;
+   border-radius: 40px;
+   padding: 20px;
+}
